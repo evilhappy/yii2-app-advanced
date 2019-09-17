@@ -1,8 +1,25 @@
 <?php
 return [
-    'adminEmail' => 'admin@example.com',
-    'supportEmail' => 'support@example.com',
-    'senderEmail' => 'noreply@example.com',
-    'senderName' => 'Example.com mailer',
-    'user.passwordResetTokenExpire' => 3600,
+    'errors' => [
+        200 => ['success', 'success'],
+        300 => ['缺少参数', '缺少参数'],
+        301 => ['添加失败,请稍后重试', '添加失败,请稍后重试'],
+        302 => ['修改失败,请稍后重试', '修改失败,请稍后重试'],
+        303 => ['删除失败,请稍后重试', '删除失败,请稍后重试'],
+        304 => ['状态异常', '状态异常'],
+        305 => ['参数格式错误', '参数格式错误'],
+        306 => ['参数格式错误', 'curl请求失败'],
+        307 => ['系统错误', '代码异常,系统错误'],
+        308 => ['用户不存在', '用户账号问题'],
+        309 => ['分页参数有误', '分页参数有误'],
+        310 => ['软件来源异常', '软件来源异常'],
+        999 => ['活动结束', '活动结束'],
+        888 => ['系统维护', '系统维护'],
+    ],
+    'noCheckLoginApi' => [
+        'v1/user/user/list',
+    ],
+    'noNeedSignApi' => [
+        '/v1/user/user/list',
+    ],
 ];
