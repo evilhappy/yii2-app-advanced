@@ -39,7 +39,7 @@ Après avoir installé le modèle de projet, il est conseillé d'ajuster le cont
     "extra": {
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
+            "bower-asset-library": bower-asset
         }
     }
 }

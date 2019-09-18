@@ -40,7 +40,7 @@ directory:
     "extra": {
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
+            "bower-asset-library": bower-asset
         }
     }
 }
